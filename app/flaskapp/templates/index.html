@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>詰めチャレ画像アップローダ</title>
+</head>
+<body>
+  <h1>詰めチャレ画像アップローダ
+  </h1>
+  将棋クエスト・詰めチャレの局面画像をアップロードして詰め手順を表示します。
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+  <form method="post" action="/" enctype="multipart/form-data">
+    <input type="file" name="questimage">
+    <input type="submit" value="アップロード">
+  </form>
+</body>
+</html>

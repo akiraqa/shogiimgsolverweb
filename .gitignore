@@ -1,3 +1,7 @@
+# test files
+app/flaskapp/results/*.jpg
+app/flaskapp/*.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>詰めチャレ画像アップローダ</title>
+</head>
+<body>
+  <h1>詰めチャレ画像アップローダ: 結果
+  </h1>
+<a href="/">戻る</a>
+  {% if message %}
+  <p>結果: {{message.result}}</p>
+  <img style="height: 60vh;" src="{{message.result_url}}"/>
+  <h3>sfen形式:</h3>
+  <p>{{message.sfen}}</p>
+  <h3>CSA形式:</h3>
+  <pre>CSA: {{message.csa}}</pre>
+{% endif %}
+
+</body>
+</html>
