@@ -1,4 +1,4 @@
-# shogi image solver　web
+# shogi image solver web
 
 将棋アプリのスクリーンショット画像をアップロードすると、次の一手/詰み手順を表示します。
 
@@ -17,7 +17,8 @@ docker-compose up -d
 
 詰めチャレ画像をアップロードすると、結果画面を表示します。
 
-##　内容
+## 内容
+
 python+flask+uWSGI+nginxをdockerで動かします。
 
 詰将棋を解く部分は[やねうら王](https://github.com/yaneurao/YaneuraOu)詰将棋エンジンをDockerfileでビルドしています。
