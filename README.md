@@ -6,10 +6,16 @@
 
 ## 実行方法
 
+以下の手順で、GCP無料枠e2-microでも動きました。(debian-11-bullseyeイメージ)
+
 ```
+sudo apt-get update
+sudo apt-get install -y git
+sudo apt-get install -y docker.io
+sudo apt-get install -y docker-compose
 git clone https://github.com/akiraqa/shogiimgsolverweb
-cd shogiimgsolverweb
-docker-compose up -d
+cd shogiimgsolverweb/
+sudo docker-compose up -d
 ```
 
 コンテナ起動したら、
