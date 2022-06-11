@@ -17,7 +17,7 @@ docker-compose up -d
 
 詰めチャレ画像をアップロードすると、結果画面を表示します。
 
-##　内容
+## 内容
 
 python+flask+uWSGI+nginxをdockerで動かします。
 
