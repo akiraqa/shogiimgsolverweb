@@ -1,4 +1,4 @@
-# shogi image solver　web
+# shogi image solver web
 
 将棋アプリのスクリーンショット画像をアップロードすると、次の一手/詰み手順を表示します。
 
