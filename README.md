@@ -15,6 +15,8 @@ sudo apt-get install -y docker.io
 sudo apt-get install -y docker-compose
 git clone https://github.com/akiraqa/shogiimgsolverweb
 cd shogiimgsolverweb/
+cp 盤駒ファイル app/flaskapp/bankoma/
+cp 先手持ち駒ファイル app/flaskapp/mochigoma_sente/
 sudo docker-compose up -d
 ```
 
@@ -30,5 +32,5 @@ python+flask+uWSGI+nginxをdockerで動かします。
 詰将棋を解く部分は[やねうら王](https://github.com/yaneurao/YaneuraOu)詰将棋エンジンをDockerfileでビルドしています。
 
 詰めチャレ画像を棋譜に解析する処理は
-[shogiimgsolver](https://github.com/akiraqa/shogiimgsolver) で行っています。
+[shogiimagesolver](https://github.com/akiraqa/shogiimagesolver) で行っています。
 

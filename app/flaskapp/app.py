@@ -5,7 +5,7 @@ import re
 import tempfile
 import sqlite3
 import uuid
-from shogiimgsolver import ImageSolver
+from shogiimagesolver import ImageSolver
 from flask import Flask, flash, request, redirect, render_template, send_from_directory
 from werkzeug.utils import secure_filename
 

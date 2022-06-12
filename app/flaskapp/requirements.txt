@@ -4,5 +4,4 @@ numpy==1.22.4
 opencv-contrib-python==4.5.5.64
 Pillow==9.1.1
 python-shogi==1.0.15
-git+https://github.com/akiraqa/shogiimgsolver@master#egg=shogiimgsolver
-
+git+https://github.com/akiraqa/shogiimagesolver@master#egg=shogiimagesolver
